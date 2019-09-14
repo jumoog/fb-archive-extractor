@@ -5,7 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "moment": "^2.24.0",
-    "piexifjs": "^1.0.4"
+    "piexifjs": "^1.0.6"
   },
   "devDependencies": {},
   "scripts": {

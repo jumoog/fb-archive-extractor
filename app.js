@@ -32,7 +32,7 @@ fs.readFile(__dirname + "/message_1.json", 'utf8', function (err, data) {
                     let newJpeg = Buffer.from(newData, "binary");
                     fs.writeFileSync(filename2, newJpeg);
                 }
-            } else if (element.hasOwnProperty('vides')) {
+            } else if (element.hasOwnProperty('videos')) {
                 let filename1 = element.videos[0].uri;
                 let filename2 = 'vid/' + path.basename(element.videos[0].uri);
                 fs.copyFile(filename1, filename2, (err) => {
