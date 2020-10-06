@@ -4,7 +4,7 @@
   "description": "extract photos/videos from FB Datadump and add EXIF timestamp",
   "main": "app.js",
   "dependencies": {
-    "moment": "^2.29.0",
+    "moment": "^2.29.1",
     "piexifjs": "^1.0.6"
   },
   "author": "jumoog",
